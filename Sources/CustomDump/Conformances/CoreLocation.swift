@@ -82,6 +82,7 @@
     @available(tvOS, unavailable)
     @available(watchOS, unavailable)
     @available(xrOS, unavailable)
+    @available(visionOS, unavailable)
     extension CLProximity: CustomDumpStringConvertible {
       public var customDumpDescription: String {
         switch self {
@@ -125,6 +126,7 @@
     @available(tvOS, unavailable)
     @available(watchOS, unavailable)
     @available(xrOS, unavailable)
+    @available(visionOS, unavailable)
     extension CLRegionState: CustomDumpStringConvertible {
       public var customDumpDescription: String {
         switch self {
